@@ -39,4 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'passenger'
-
+group :production do
+	gem 'mysql2'
+end
